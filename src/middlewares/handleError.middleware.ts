@@ -1,5 +1,5 @@
-import appError from "../errors/appError"
 import "express-async-errors"
+import appError from "../errors/appError"
 import { ZodError } from "zod"
 import { NextFunction, Request, Response } from "express"
 

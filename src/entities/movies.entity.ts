@@ -1,4 +1,4 @@
-import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
+import { Column, Entity, PrimaryGeneratedColumn } from "typeorm"
 
 @Entity("movies")
 class Movie {
@@ -18,4 +18,4 @@ class Movie {
     price: number
 }
 
-export default Movie;
+export default Movie

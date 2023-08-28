@@ -1,3 +1,3 @@
-import { cadastreNewMovieController, getMoviesController } from "./movies.controllers"
+import { cadastreNewMovieController, getMoviesController, deleteMovieController, updateMovieController } from "./movies.controllers"
 
-export default { cadastreNewMovieController, getMoviesController }
+export default { cadastreNewMovieController, getMoviesController, deleteMovieController, updateMovieController }
